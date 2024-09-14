@@ -5,19 +5,19 @@ public class Main {
  
     public static void main(String[] args) throws IOException {
  
-       int x,y,soma;
+       int A,B,X;
        
        Scanner input = new Scanner(System.in);
-       Scanner inputy = new Scanner(System.in);
+      
 
-       x = input.nextInt();
-       y = inputy.nextInt();
+       A = input.nextInt();
+       B = input.nextInt();
        
-       soma = x + y;
+       X = A + B;
 
-       System.out.printf("X = ", soma );
+       System.out.println("X = " + X );
  
        input.close();
-       inputy.close();
+       
     }
 }
