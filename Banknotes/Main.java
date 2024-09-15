@@ -13,6 +13,8 @@ public class Main {
         n = input.nextInt();
         System.out.println(n);
 
+        input.close();
+
         c = n/notas[0];
         if(c>0){n = n - (100*c);}
         d5 = n/notas[1];
